@@ -24,5 +24,10 @@
   },
   "dependencies": {
     "react": "^18.2.0"
-  }
+  },
+  "exports": {
+		".": "./dist/constants.ts",
+		"./add": "./dist/add.ts",
+		"./subtract": "./dist/subtract.ts"
+	}
 }

@@ -1,0 +1,113 @@
+{
+    "errors": {
+        "custom": "अमान्य इनपुट",
+        "invalid_arguments": "अमान्य फ़ंक्शन तर्क",
+        "invalid_date": "अमान्य तारीख",
+        "invalid_enum_value": "अमान्य इनम मूल्य। अपेक्षित {{- options}}, प्राप्त '{{received}}'",
+        "invalid_intersection_types": "इंटरसेक्शन परिणामों को जोड़ा नहीं जा सका",
+        "invalid_literal": "अमान्य अक्षर मूल्य, अपेक्षित {{expected}}",
+        "invalid_return_type": "अमान्य फ़ंक्शन लौटाने का प्रकार",
+        "invalid_string": {
+            "cuid": "अमान्य {{validation}}",
+            "datetime": "अमान्य {{validation}}",
+            "email": "अमान्य {{validation}}",
+            "endsWith": "अमान्य इनपुट: \"{{endsWith}}\" से समाप्त होना चाहिए",
+            "regex": "अमान्य",
+            "startsWith": "अमान्य इनपुट: \"{{startsWith}}\" से शुरू होना चाहिए",
+            "url": "अमान्य {{validation}}",
+            "uuid": "अमान्य {{validation}}"
+        },
+        "invalid_type": "अपेक्षित {{expected}}, प्राप्त {{received}}",
+        "invalid_type_received_null": "आवश्यक",
+        "invalid_type_received_undefined": "आवश्यक",
+        "invalid_union": "अमान्य इनपुट",
+        "invalid_union_discriminator": "अमान्य विभेदक मूल्य। अपेक्षित {{- options}}",
+        "not_finite": "संख्या सीमित होनी चाहिए",
+        "not_multiple_of": "संख्या {{multipleOf}} का गुणक होना चाहिए",
+        "too_big": {
+            "array": {
+                "exact": "एरे में ठीक {{maximum}} तत्व होने चाहिए",
+                "inclusive": "एरे में अधिकतम {{maximum}} तत्व होने चाहिए",
+                "not_inclusive": "एरे में {{maximum}} से कम तत्व होने चाहिए"
+            },
+            "date": {
+                "exact": "तारीख ठीक {{- maximum, datetime}} होनी चाहिए",
+                "inclusive": "तारीख {{- maximum, datetime}} से छोटी या बराबर होनी चाहिए",
+                "not_inclusive": "तारीख {{- maximum, datetime}} से छोटी होनी चाहिए"
+            },
+            "number": {
+                "exact": "संख्या ठीक {{maximum}} होनी चाहिए",
+                "inclusive": "संख्या {{maximum}} से कम या बराबर होनी चाहिए",
+                "not_inclusive": "संख्या {{maximum}} से कम होनी चाहिए"
+            },
+            "set": {
+                "exact": "अमान्य इनपुट",
+                "inclusive": "अमान्य इनपुट",
+                "not_inclusive": "अमान्य इनपुट"
+            },
+            "string": {
+                "exact": "स्ट्रिंग में ठीक {{maximum}} वर्ण होने चाहिए",
+                "inclusive": "स्ट्रिंग में अधिकतम {{maximum}} वर्ण होने चाहिए",
+                "not_inclusive": "स्ट्रिंग में {{maximum}} से कम वर्ण होने चाहिए"
+            }
+        },
+        "too_small": {
+            "array": {
+                "exact": "एरे में ठीक {{minimum}} तत्व होने चाहिए",
+                "inclusive": "एरे में कम से कम {{minimum}} तत्व होने चाहिए",
+                "not_inclusive": "एरे में {{minimum}} से अधिक तत्व होने चाहिए"
+            },
+            "date": {
+                "exact": "तारीख ठीक {{- minimum, datetime}} होनी चाहिए",
+                "inclusive": "तारीख {{- minimum, datetime}} से बड़ी या बराबर होनी चाहिए",
+                "not_inclusive": "तारीख {{- minimum, datetime}} से बड़ी होनी चाहिए"
+            },
+            "number": {
+                "exact": "संख्या ठीक {{minimum}} होनी चाहिए",
+                "inclusive": "संख्या {{minimum}} से अधिक या बराबर होनी चाहिए",
+                "not_inclusive": "संख्या {{minimum}} से अधिक होनी चाहिए"
+            },
+            "set": {
+                "exact": "अमान्य इनपुट",
+                "inclusive": "अमान्य इनपुट",
+                "not_inclusive": "अमान्य इनपुट"
+            },
+            "string": {
+                "exact": "स्ट्रिंग में ठीक {{minimum}} वर्ण होने चाहिए",
+                "inclusive": "स्ट्रिंग में कम से कम {{minimum}} वर्ण होने चाहिए",
+                "not_inclusive": "स्ट्रिंग में {{minimum}} से अधिक वर्ण होने चाहिए"
+            }
+        },
+        "unrecognized_keys": "ऑब्जेक्ट में अमान्य कुंजी(याँ): {{- keys}}"
+    },
+    "types": {
+        "array": "सरणी",
+        "bigint": "बिगइंट",
+        "boolean": "बूलियन",
+        "date": "तारीख",
+        "float": "फ्लोट",
+        "function": "समारोह",
+        "integer": "पूर्णांक",
+        "map": "मानचित्र",
+        "nan": "नान",
+        "never": "कभी नहीं",
+        "null": "शून्य",
+        "number": "संख्या",
+        "object": "वस्तु",
+        "promise": "प्रॉमिस",
+        "set": "सेट",
+        "string": "स्ट्रिंग",
+        "symbol": "प्रतीक",
+        "undefined": "अपरिभाषित",
+        "unknown": "अज्ञात",
+        "void": "खालीपन"
+    },
+    "validations": {
+        "cuid": "कुइड",
+        "datetime": "दिनांक समय",
+        "email": "ईमेल",
+        "regex": "रेगएक्स",
+        "url": "यूआरएल",
+        "uuid": "यूयूआईडी"
+    }
+}

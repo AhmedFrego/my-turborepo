@@ -1,0 +1,228 @@
+import { RaMessages } from 'src/locales';
+
+export const raMessages: RaMessages = {
+	ra: {
+		action: {
+			add: 'Ajouter',
+			add_filter: 'Ajouter le filtre',
+			back: 'Retourner',
+			bulk_actions: '',
+			bulk_actions_one: '1 élément sélectionné',
+			bulk_actions_other: '{{count}} Éléments sélectionnés',
+			cancel: 'Annuler',
+			clear_array_input: 'Effacer la liste',
+			clear_input_value: 'Valeur claire',
+			clone: 'Cloner',
+			close: 'Fermer',
+			close_menu: 'Fermer le menu',
+			confirm: 'Confirmer',
+			create: 'Créer',
+			create_item: 'Créer {{item}}',
+			delete: 'Supprimer',
+			edit: 'Modifier',
+			expand: 'Développer',
+			export: 'Exporter',
+			list: 'Liste',
+			move_down: 'Descendre',
+			move_up: 'Déplacer vers le haut',
+			open: 'Ouvrir',
+			open_menu: 'Ouvrir',
+			refresh: 'Rafraîchir',
+			remove: 'Retirer',
+			remove_all_filters: 'Supprimer tous les filtres',
+			remove_filter: 'Supprimer ce filtre',
+			save: 'Sauvegarder',
+			search: 'Recherche',
+			select_all: 'Tout sélectionner',
+			select_columns: 'Colonnes',
+			select_row: 'Sélectionnez cette ligne',
+			show: 'Montrer',
+			sort: 'Trier',
+			toggle_theme: 'Basquer le mode clair / sombre',
+			undo: 'annuler',
+			unselect: 'Non sécurisé',
+			update: 'Mise à jour',
+			update_application: "Recharger l'application",
+		},
+		auth: {
+			auth_check_error: 'Merci de vous connecter pour continuer',
+			logout: 'Se déconnecter',
+			password: 'Mot de passe',
+			sign_in: 'Se connecter',
+			sign_in_error: "L'authentification a échoué, veuillez réessayer",
+			user_menu: 'Profil',
+			username: "Nom d'utilisateur",
+		},
+		boolean: {
+			false: 'Non',
+			null: ' ',
+			true: 'Oui',
+		},
+		configurable: {
+			configureMode: 'Configurer cette page',
+			customize: 'Personnaliser',
+			Datagrid: {
+				title: 'Grille de données',
+				unlabeled: 'Colonne non marquée #{{column}}',
+			},
+			inspector: {
+				content:
+					"Planer les éléments de l'interface utilisateur de l'application pour les configurer",
+				hideAll: 'Cacher tout',
+				reset: 'Réinitialiser les options',
+				showAll: 'Afficher tout',
+				title: 'Inspectrice',
+			},
+			SimpleForm: {
+				title: 'Formulaire',
+				unlabeled: 'Entrée non marquée #{{input}}',
+			},
+			SimpleList: {
+				primaryText: 'Texte principal',
+				secondaryText: 'Texte secondaire',
+				tertiaryText: 'Texte tertiaire',
+				title: 'Liste',
+			},
+		},
+		input: {
+			file: {
+				upload_several:
+					'Déposez certains fichiers pour télécharger ou cliquez pour en sélectionner un.',
+				upload_single:
+					'Déposez un fichier à télécharger ou cliquez pour le sélectionner.',
+			},
+			image: {
+				upload_several:
+					'Déposez quelques images pour télécharger ou cliquez pour en sélectionner une.',
+				upload_single:
+					'Déposez une image pour télécharger ou cliquez pour le sélectionner.',
+			},
+			password: {
+				toggle_hidden: 'Montrer le mot de passe',
+				toggle_visible: 'Masquer le mot de passe',
+			},
+			references: {
+				all_missing: 'Impossible de trouver des données de références.',
+				many_missing:
+					'At least one of the associated references no longer appears to be available.',
+				single_missing:
+					'Associated reference no longer appears to be available.',
+			},
+		},
+		message: {
+			about: 'À propos',
+			are_you_sure: 'Es-tu sûr?',
+			auth_error:
+				'An error occurred while validating the authentication token.',
+			bulk_delete_content: '',
+			bulk_delete_content_one:
+				'Êtes-vous sûr de vouloir supprimer ceci {{name}}?',
+			bulk_delete_content_other:
+				'Êtes-vous sûr de vouloir les supprimer {{count}} articles?',
+			bulk_delete_title: '',
+			bulk_delete_title_one: 'Supprimer {{name}}',
+			bulk_delete_title_other: 'Supprimer {{count}} {{name}}',
+			bulk_update_content: '',
+			bulk_update_content_one: 'Are you sure you want to update this {{name}}?',
+			bulk_update_content_other:
+				'Êtes-vous sûr de vouloir les mettre à jour {{count}} articles?',
+			bulk_update_title: '',
+			bulk_update_title_one: 'Mise à jour {{name}}',
+			bulk_update_title_other: 'Mise à jour {{count}} {{name}}',
+			clear_array_input: 'Êtes-vous sûr de vouloir effacer toute la liste?',
+			delete_content: 'Êtes-vous sûr de bien vouloir supprimer cet élément?',
+			delete_title: 'Supprimer {{name}} #{{id}}',
+			details: 'Détails',
+			error: "A client error occurred and your request couldn't be completed.",
+			invalid_form:
+				"Le formulaire n'est pas valide.Veuillez vérifier les erreurs",
+			loading: "S'il vous plaît, attendez",
+			no: 'Non',
+			not_found:
+				'Soit vous avez tapé une mauvaise URL, soit vous avez suivi un mauvais lien.',
+			unsaved_changes:
+				"Some of your changes weren't saved. Are you sure you want to ignore them?",
+			yes: 'Oui',
+		},
+		navigation: {
+			current_page: 'Page {{page}}',
+			first: 'Aller à la première page',
+			last: 'Aller à la dernière page',
+			next: 'Aller à la page suivante',
+			no_more_results:
+				'The page number {{page}} is out of boundaries. Try the previous page.',
+			no_results: 'Aucun résultat trouvé',
+			page: 'Aller sur page {{page}}',
+			page_out_from_begin: 'Ne peut pas aller avant la page 1',
+			page_out_from_end: "Impossible d'y aller après la dernière page",
+			page_out_of_boundaries: 'Numéro de page {{page}} hors des limites',
+			page_range_info: '{{offsetBegin}}-{{offsetEnd}} de {{total}}',
+			page_rows_per_page: 'Lignes par page:',
+			partial_page_range_info:
+				'{{offsetBegin}}-{{offsetEnd}} of more than {{offsetEnd}}',
+			previous: 'Passez à la page précédente',
+			skip_nav: 'Aller au contenu',
+		},
+		notification: {
+			application_update_available: 'Une nouvelle version est disponible.',
+			bad_item: 'Élément incorrect',
+			canceled: 'Action annulée',
+			created: 'Élément créé',
+			data_provider_error:
+				'Erreur de DataProvider.Vérifiez la console pour plus de détails.',
+			deleted: '',
+			deleted_one: 'Élément supprimé',
+			deleted_other: '{{count}} Élément supprimé',
+			http_error: 'Erreur de communication du serveur',
+			i18n_error:
+				'Impossible de charger les traductions pour la langue spécifiée',
+			item_doesnt_exist: "L'élément n'existe pas",
+			logged_out: 'Votre session est terminée, veuillez vous reconnecter.',
+			not_authorized: "You're not authorized to access this resource.",
+			updated: '',
+			updated_one: 'Élément mis à jour',
+			updated_other: '{{count}} Mis à jour',
+		},
+		page: {
+			create: 'Créer {{name}}',
+			dashboard: 'Tableau de bord',
+			edit: ' {{name}} {{recordRepresentation}}',
+			empty: 'Non{{name}} pour le moment.',
+			error: "Quelque chose s'est mal passé",
+			invite: 'Veux-tu en ajouter un?',
+			list: '{{nom}}',
+			loading: 'Chargement',
+			not_found: 'Pas trouvé',
+			show: ' {{name}} {{recordRepresentation}}',
+		},
+		saved_queries: {
+			help: 'Filtrez la liste et enregistrez cette requête pour plus tard',
+			label: 'Requêtes enregistrées',
+			new_dialog_title: 'Enregistrer la requête actuelle comme',
+			new_label: 'Enregistrer la requête actuelle ...',
+			query_name: 'Nom de requête',
+			remove_dialog_title: 'Supprimer la requête enregistrée?',
+			remove_label: 'Supprimer la requête enregistrée',
+			remove_label_with_name: 'Supprimer la requête "{{name}}"',
+			remove_message:
+				'Are you sure you want to remove that item from your list of saved queries?',
+		},
+		sort: {
+			ASC: 'ascendante',
+			DESC: 'descendante',
+			sort_by: 'Trier par {{field}} {{order}}',
+		},
+		validation: {
+			email: 'Doit être un e-mail valide',
+			maxLength: 'Doit être des caractères {{max}} ou moins',
+			maxValue: 'Doit être {{max}} ou moins',
+			minLength: 'Doit être {{min}} caractères au moins',
+			minValue: 'Doit être au moins {{min}}',
+			number: 'Doit être un nombre',
+			oneOf: "Doit être l'un des:{{options}}",
+			regex: 'Doit correspondre à un format spécifique (regexp): {{pattern}}',
+			required: 'Requis',
+			unique: 'Doit être unique',
+		},
+	},
+};
